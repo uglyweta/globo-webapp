@@ -38,9 +38,9 @@ variable "api_key_secret_id" {
 }
 
 variable "ec2_role_name" {
-  type = string
+  type        = string
   description = "(Required) Role Name for EC2 instance profile"
-  
+
 }
 
 variable "playbook_repository" {
